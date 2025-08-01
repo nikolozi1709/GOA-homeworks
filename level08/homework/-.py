@@ -20,10 +20,10 @@ print(20==60 or 10<5)
 #selecting - (არჩევითი) ანუ სიტყვისა თუ სიმბოლის არჩევა 
 
 #3)მოიყვანე secuencing ის მაგალითი,და კომენტარით მიუწერე რატომ არის შენს მიერ მოყვანილი მაგალითი sequence
-#print (sketch of the building)
-#print (start building)
-#print (finish building)
-#print (congradulations you have built a building  )
+print ("sketch of the building")
+print ("start building")
+print ("finish building")
+print ("congradulations you have built a building"  )
 # ეს იყო sequiencing ის კარგი მაგალიტი რადგან პირნათლად ჩანს შენობის აშენების ნაბიჯები ზემოდან ქვემოთ როგორც კოდი იკითხება
 
 #4)კომენტარის სახით ახსენით თუ რა არის for loop და რაში გვეხმარება ის~
