@@ -23,8 +23,8 @@ else:
     print("Password is correct!")
 #5)შექმენით ცვლადი სადაც შეინახავთ მომხმარებლის მიერ შემოყვანილი ცხოველის სახეობას. თუ სახეობა უდრის "ძაღლი" დაბეჭდეთ "woaf! woaf!", სხვა შემთხვევაში "შენ არ გყავს ძაღლი"
 animal_type ="dog"
-input("Enter your animal Type")
-if animal_type == input:
+data=input("Enter your animal Type")
+if  animal_type == data:
     print("woaf")
 else:
     print("you dont have dog")
