@@ -1,0 +1,49 @@
+<!-- 1)შექმენით dropdown menu რომელშიც შეგვეძლება შეავრჩიოთ მანქანის ბრენდი, defauld value დ დააყენეთ bmw
+
+2)შექმენით სარეგისტრაციო ფორმა, აი ამ დატაბაზის მიხედვით შექმენით label & input ები, და name ების საშუალებით გაანაწილეთ სწორ column ებში თითოეული input,
+ ზემოთ შექმენილი dropdown menu გამოიყეენთ brand ისთვის -->
+
+ <!-- 1 -->
+
+<html>
+    <head> title = drop down menu</head>
+    <body>
+        <form>
+        <h1>Registration</h1>
+        <label for="name">Enter youe name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="Last Name">Enter your Last Name</label>
+        <input type="text" id="Last Name" name="Last Name"><br><br>
+
+        <label for="nickname">Enter your Nick name</label>
+        <input type="text" id="nickname" name="nickname"><br><br>
+
+        <label for="email">Enter your email:</label>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label for="password">Enter your password:</label>
+        <input type="text" id="password" name="password"><br><br>
+
+        <label for="number">Enter your number:</label>
+        <input type="number"><br><br>
+        
+        <label for="date of birth">select your date of birth:</label>
+        <input type="date" id="date of birth" name="date of birth"><br><br>
+
+        
+        <input type="submit">
+    </form>
+        <label for="car brands">
+            choose your car:
+            <select id="car"  name = "car">
+            <option value ="bmw">BMW</option>
+            <option value="mercedes">mercedes</option>
+            <option value ="audi">audi</option>
+            <option value = "alfa romeo">alfa romeo</option>
+
+            </select>
+        </label>
+    </body>
+</html>
+
