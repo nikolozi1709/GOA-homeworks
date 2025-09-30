@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  height: 100vh;
+  background-color: black;
+  color: white
+}
+
+.image-gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.robot-3d {
+  position: relative;
+  bottom: 1350px;
+  left: 200px;
+}
+
+#img {
+  position: relative;
+  left: 1200px;
+  bottom: 500px;
+}
+
+button {
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  transition: 0.3s ease;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+
+
+
+button:hover {
+  background-color: rgb(172, 6, 201);
+  color: black;
+  transition: 0.3s ease;
+  transform: scale(1.025); /* scale - გადიდება | skew - დახრა */
+}
+
+ul {
+  list-style: none;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:Poppins;
+}

@@ -1,0 +1,207 @@
+<html>
+<head>
+    <title>გრაფიკული დიზაინი</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {font-family: 'Poppins', sans-serif;
+            background-image: url('123.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #f0f0f0;
+            text-align: center;
+            line-height: 1.6;
+            padding-top: 60px;}
+
+        
+
+        header {
+
+            padding: 25px 20px;
+            text-align: center;
+            border-bottom: 2px solid mediumspringgreen;
+            box-shadow: 0 4px 12px rgba(0, 255, 127, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-shadow: 0 0 10px rgba(0, 255, 127, 0.7);
+        }
+
+        .subtitle {
+            margin-top: 10px;
+            color: #a0ffd0;
+            font-size: 1.1rem;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: linear-gradient(to bottom right, #111111, #1a1a1a);
+            border: 1px solid mediumspringgreen;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 5px 15px rgba(0, 255, 153, 0.2);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(to right, mediumspringgreen, #00cc77);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 255, 153, 0.4);
+        }
+
+        .card h2 {
+            color: #00ff99;
+            margin-bottom: 15px;
+            font-size: 1.6rem;
+            border-bottom: 1px solid rgba(0, 255, 153, 0.3);
+            padding-bottom: 8px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin: 12px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        li::before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: mediumspringgreen;
+            font-weight: bold;
+        }
+
+        .highlight {
+            background-color: rgba(0, 255, 153, 0.1);
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .back-home {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .back-home a {
+            display: inline-block;
+            text-decoration: none;
+            color: #003311;
+            background: linear-gradient(to right, mediumspringgreen, #00cc77);
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 255, 153, 0.3);
+        }
+
+        .back-home a:hover {
+            background: linear-gradient(to right, #00cc77, mediumspringgreen);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 255, 153, 0.5);
+        }
+
+        footer {
+            background: linear-gradient(to right, #006400, #004d00);
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            border-top: 2px solid mediumspringgreen;
+            font-size: 0.9rem;
+            color: #a0ffd0;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>გრაფიკული დიზაინი</h1>
+        <p class="subtitle">ვიზუალური კომუნიკაციის ხელოვნება</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>რა არის გრაფიკული დიზაინი?</h2>
+            <p>
+                გრაფიკული დიზაინი ვიზუალური კომუნიკაციის ერთ-ერთი ყველაზე მნიშვნელოვანი ფორმაა. 
+                ის აერთიანებს ფერს, ფორმას, ტიპოგრაფიას და კომპოზიციას, რათა ინფორმაცია 
+                უფრო გასაგები და მიმზიდველი გახდეს.
+            </p>
+            <p>
+                დღესდღეობით, გრაფიკული დიზაინი არა მხოლოდ ესთეტიკური ხელოვნებაა, არამედ 
+                პრობლემების გადაჭრის ეფექტური ინსტრუმენტი ბიზნესისა და კომუნიკაციის სამყაროში.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>სად გამოიყენება?</h2>
+            <ul>
+                <li>რეკლამასა და მარკეტინგში</li>
+                <li>ვებსაიტებისა და აპლიკაციების დიზაინში</li>
+                <li>ლოგოტიპებსა და ბრენდინგში</li>
+                <li>სოციალური მედიის კონტენტში</li>
+                <li>გამოცდებისა და წიგნების დიზაინში</li>
+                <li>პაკეტირებასა და პროდუქტის დიზაინში</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>სასწავლო კურსები</h2>
+            <p>
+                ეს ყველაფერი შეგიძლიათ ისწავლოთ <span class="highlight">GOAS აკადემიაში</span>, 
+                სადაც პრაქტიკული და თეორიული ცოდნა ერთიანდება.
+            </p>
+            <p>
+                ჩვენი კურსები მოიცავს თანამედროვე დიზაინის პრინციპებს, პოპულარული 
+                პროგრამული უზრუნველყოფის გამოყენებას და რეალური პროექტების განხორციელებას.
+            </p>
+        </section>
+
+        <div class="back-home">
+            <a href="index.html">⬅ მთავარი გვერდი</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 GOAS აკადემია - ყველა უფლება დაცულია</p>
+    </footer>
+</body>
+</html>

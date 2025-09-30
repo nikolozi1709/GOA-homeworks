@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(font/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+body{
+
+    background-color: white;
+}
+h1{
+    color: greenyellow;
+}
+h2{
+    color: greenyellow;
+}
+h3{
+    color: greenyellow;
+}
+h4{
+    color: greenyellow;
+}
+h5{
+    color: greenyellow;
+}
+h6{
+    color: greenyellow;
+}
+p{
+    color: greenyellow;
+}
+#button1{
+    border-color: greenyellow;
+    background-color: black;
+    color: greenyellow;
+    width: 200;
+    height: 40;
+    font-size: 18;
+    margin-left: 40;
+}
+#button2{
+    border-color: greenyellow;
+    background-color: black;
+    color: greenyellow;
+    width: 400;
+    height: 80;
+}
+#goa{
+    color: white;
+}
+#box1{
+    margin-top: 100;
+    margin-left: 400;
+    color: greenyellow;
+
+}
+#img1{
+    width: 300;
+}
+.grow{
+    cursor: pointer;
+    transition:0.5s;
+}
+.grow:hover {
+    transform: scale(1.2);
+}
+#box2{
+    width: 500;
+    height: 300;
+    margin-top: 40;
+    margin-left: 150;
+}
+#box3{
+    width: 500;
+    height: 300;
+    margin-left: 50;
+    margin-top: 40;
+}
+#box4{
+    width: 500;
+    height: 300;
+    margin-left: 50;
+    margin-top: 40;
+}
+b{
+    color: greenyellow;
+}
+#box5{
+    background-color: black;
+    border-radius: 5%;
+    width: 1500;
+    height: 1300;
+    margin-left: 200;
+    margin-top: 100;
+}
