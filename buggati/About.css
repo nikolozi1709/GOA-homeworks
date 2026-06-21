@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bitcount+Prop+Single:wght@100..900&family=Contrail+One&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Unica+One&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 5px;
+  margin-right:100px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items:center;
+}
+
+.navbar {
+  height: 80px;
+  background-color:#000000;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  position: sticky;
+  top: 0%;
+  z-index: 100;
+}
+
+.navbar ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  right: 80px;
+  font-size:15px;
+}
+.navbar ul li a:hover {
+  color:#00b7ff;
+  transition: 0.3s ease;
+}
+.navbar img {
+  padding: 1%;
+  width: 200px;
+  border-radius: 20%;
+  position: relative;
+  right: 500px;
+}
+#zoo{
+  color:rgb(248, 252, 248);
+  padding-right:900px;
+  font-size: 25px;
+}
+#first_hero {
+  background-image: url(./sponsors/24250-3840x2160-desktop-4k-cat-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left:70px;
+  padding-bottom:20px;
+  
+}
+
+.hero-content {
+  color: white;
+  text-align: center;
+}
+
+#welcome{
+  color:white;
+  font-size:70px;
+}
+#welcome1{
+  color: #00b7ff;
+  font-size:30px;
+}
+#saved{
+  color:#ffffff;
+  font-weight: 700;
+  font-size:20px;
+}
+#p{
+  font-size:15px;
+  font-weight: 700;
+}
+#first_hero button{
+  color: #ffffff;
+  padding-left:40px;
+  padding-right:40px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border:none;
+  border-radius:10px;
+  background-color: #000000;
+  font-size:15px;
+}
+#first_hero button:hover{
+  background-color: #438199;
+  color:#00b7ff;
+}
+#comfort{
+  margin-bottom:40px;
+}
+#saved{
+  margin-bottom:10px;
+}
+#p{
+  margin-bottom:20px;
+}
+#heading{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color: #EAA442;
+  font-size:30px;
+  padding-top:70px;
+  margin-bottom:20px;
+}
+#near{
+  color:white;
+}
+.eyebrow {
+  font-family: "Unica One", sans-serif;
+  letter-spacing: 4px;
+  font-size: 13px;
+  color: #00b7ff;
+  margin-bottom: 12px;
+}
+.centered {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about_hero {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 140px 70px 100px;
+}
+#about_title {
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.05;
+  max-width: 700px;
+}
+#about_sub {
+  margin-top: 24px;
+  max-width: 480px;
+  font-size: 16px;
+  color: #b9c2c9;
+}
+#story {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 100px 70px;
+  background-color: #f4f4f4;
+}
+.story_text {
+  flex: 1;
+  max-width: 560px;
+}
+.story_text h2 {
+  font-family: "Big Shoulders", sans-serif;
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #0a0a0a;
+}
+.story_text p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #3a3a3a;
+}
+.story_image {
+  flex: 1;
+  height: 360px;
+  border-radius: 14px;
+  background-color: #d9d9d9;
+  background-image: url(./sponsors/WC202401_ZimParksK9Training_023_542170_reduced.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#process {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 100px 70px;
+}
+#process h2 {
+  font-family: "Big Shoulders", sans-serif;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+.steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  position: relative;
+}
+.steps::before {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 5%;
+  right: 5%;
+  height: 1px;
+  background: repeating-linear-gradient(to right, #00b7ff 0 8px, transparent 8px 16px);
+  z-index: 0;
+}
+.step {
+  position: relative;
+  flex: 1;
+  background-color: #111418;
+  padding: 30px 22px;
+  border-radius: 12px;
+  z-index: 1;
+}
+.step_num {
+  font-family: "Unica One", sans-serif;
+  color: #00b7ff;
+  font-size: 20px;
+}
+.step h3 {
+  font-family: "Big Shoulders", sans-serif;
+  font-size: 22px;
+  margin: 14px 0 10px;
+}
+.step p {
+  font-size: 14px;
+  color: #b9c2c9;
+  line-height: 1.6;
+}
+#about_cta {
+  background-color: #00b7ff;
+  color: #000000;
+  text-align: center;
+  padding: 80px 20px;
+}
+#about_cta h2 {
+  font-family: "Big Shoulders", sans-serif;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.cta_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.cta_buttons button {
+  color: #ffffff;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #000000;
+  font-size: 15px;
+  cursor: pointer;
+}
+.cta_buttons button:hover {
+  background-color: #ffffff;
+  color: #00b7ff;
+}
+
+
+@media (max-width: 900px) {
+  .navbar ul {
+    gap: 24px;
+    margin-right: 0;
+  }
+  .navbar ul li a {
+    right: 0;
+    font-size: 13px;
+  }
+  #zoo {
+    padding-right: 0;
+    margin-right: 24px;
+    font-size: 20px;
+  }
+
+  #first_hero {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #welcome {
+    font-size: 46px;
+  }
+  #comfort {
+    font-size: 30px;
+  }
+  #p {
+    font-size: 14px;
+  }
+
+  #about_hero {
+    padding: 100px 30px 70px;
+  }
+  #about_title {
+    font-size: 42px;
+  }
+
+  #story {
+    flex-direction: column;
+    padding: 60px 30px;
+  }
+  .story_image {
+    width: 100%;
+    height: 260px;
+  }
+
+  #process {
+    padding: 60px 30px;
+  }
+  .steps {
+    flex-direction: column;
+  }
+  .steps::before {
+    display: none;
+  }
+
+  #about_cta {
+    padding: 60px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    height: auto;
+    padding: 10px 0;
+  }
+  .navbar ul {
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 5px 10px;
+  }
+  .navbar ul li a {
+    font-size: 12px;
+  }
+  #zoo {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 6px;
+    font-size: 22px;
+  }
+
+  #first_hero {
+    height: auto;
+    min-height: 100vh;
+    padding: 100px 20px 40px;
+  }
+  #welcome {
+    font-size: 32px;
+  }
+  #comfort {
+    font-size: 24px;
+  }
+  #welcome1 {
+    font-size: 22px;
+  }
+  #saved {
+    font-size: 16px;
+  }
+  #p {
+    font-size: 13px;
+  }
+  #p br {
+    display: none;
+  }
+
+  #about_title {
+    font-size: 32px;
+  }
+  #about_sub {
+    font-size: 14px;
+  }
+
+  .story_text h2 {
+    font-size: 28px;
+  }
+
+  #process h2 {
+    font-size: 26px;
+  }
+
+  .cta_buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
